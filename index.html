@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kenneth Camacho — Basic HTML Page</title>
+    <!-- Minimal, readable CSS for clear presentation -->
+    <style>
+      :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+      body { margin: 0; background: #f7f7fb; color: #111; }
+      header, footer { background: #fff; border-bottom: 1px solid #e6e6ef; }
+      header { padding: 24px; }
+      main { padding: 24px; }
+      .card { background: #fff; border: 1px solid #e6e6ef; border-radius: 12px; padding: 20px; max-width: 720px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+      h1 { margin: 0 0 8px; font-size: 1.75rem; }
+      h2 { margin-top: 0; font-size: 1.25rem; color: #333; }
+      dl { display: grid; grid-template-columns: 180px 1fr; gap: 8px 16px; margin: 0 0 16px; }
+      dt { font-weight: 600; color: #444; }
+      dd { margin: 0; }
+      .hello { font-size: 1.125rem; padding: 12px 14px; background: #f0f4ff; border: 1px solid #d9e2ff; border-radius: 10px; }
+      footer { margin-top: 32px; padding: 16px 24px; color: #555; font-size: .95rem; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Basic HTML Page</h1>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="about">
+        <h2 id="about">Student & Course</h2>
+        <dl>
+          <dt>Full Name</dt>
+          <dd>Kenneth Camacho</dd>
+          <dt>Course Name</dt>
+          <dd>CS4813 – Web Applications Programming</dd>
+          <dt>Major</dt>
+          <dd>Computer Science (B.A.)</dd>
+          <dt>Message</dt>
+          <dd class="hello">Hello, World!</dd>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p>Deployed as part of “A Basic HTML Page” assignment. © 2025 Kenneth Camacho</p>
+    </footer>
+  </body>
+</html>
