@@ -23,7 +23,7 @@ The webpage was designed using semantic HTML and minimal CSS for clarity. It is 
 
 ## Public URL
 
-[Paste your deployed page URL here once it’s live]
+https://kennethcxv.github.io/basic-html-page/
 
 ---
 
